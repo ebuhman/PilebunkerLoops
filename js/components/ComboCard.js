@@ -40,6 +40,7 @@ export class ComboCard {
         if (this.combo.notes) // Creates paragraph element if combo has a note
         {
             const notes = document.createElement("p");
+            notes.classList.add("combo-notes");
             notes.textContent = this.combo.notes;
             comboCard.appendChild(notes);
         }
@@ -54,6 +55,7 @@ export class ComboCard {
 
         function spanCreator(label, value) { // Helper function to display a label and value
             const spanStat = document.createElement("span");
+            spanStat.classList.add("combo-stat");
             spanStat.textContent = `${label} : ${value} `
             return spanStat;
         }
@@ -65,6 +67,11 @@ export class ComboCard {
         comboStats.appendChild(meterCost);
         const difficulty = spanCreator("Difficulty", this.combo.difficulty);
         comboStats.appendChild(difficulty);
+        if (this.combo.situation) 
+            {
+                comboStats.appendChild(spanCreator("Situation", this.combo.situation));
+            }
+
 
         // If combo is optimal, create new span and append under optimal
         if (this.combo.isOptimal)
