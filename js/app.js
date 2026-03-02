@@ -17,14 +17,41 @@ function init() {
     const router = new Router();
     const appContainer = document.getElementById("app");
 
+    const header = document.createElement("header");
+    header.classList.add("site-header");
+    const title = document.createElement("h1");
+    title.textContent = "Jack-A-Dandy";
+    header.appendChild(title);
+    appContainer.appendChild(header);
+
+    const portrait = document.createElement("img");
+    portrait.src = "/images/Slayer_Guilty_Gear_Strive.webp";
+    portrait.classList.add("character-portrait");
+    appContainer.appendChild(portrait);
+
+    const pageContainer = document.createElement("div");
+    pageContainer.classList.add("page-container");
+    appContainer.appendChild(pageContainer);
+
     function setPage(pageElement) {
-        appContainer.innerHTML = "";
-        appContainer.appendChild(pageElement);
+        pageContainer.innerHTML = "";
+        pageContainer.appendChild(pageElement);
     }
 
     router.registerRoute("/", () => {
+        // Create a wrapper so we can show both the description AND the selection list
+        const homeWrapper = document.createElement("div");
+
+        const description = document.createElement("p");
+        description.classList.add("description");
+        description.textContent = "Slayer is the true embodiment of a one-shot character. With high-damage confirms and high-attack-level normals, he can effectively win games off a single exchange. This is most apparent in his famous pilebunker loops, which allow Slayer to continue combos by pushing the opponent behind him during a tumble state. This turns one of the character's biggest weaknesses, pilebunker's auto wall stick, into a strength, enabling nearly any starter to convert into meaningful damage. Add in Hand of Doom's wall bounce, and Slayer can effectively combo from anywhere on the screen for 200+ damage.";
+        
         const page = new StarterSelectPage(characterData, router);
-        setPage(page.render());
+        
+        homeWrapper.appendChild(description);
+        homeWrapper.appendChild(page.render());
+        
+        setPage(homeWrapper);
     });
 
     router.registerRoute("/combos/:id", (starterId) => {
