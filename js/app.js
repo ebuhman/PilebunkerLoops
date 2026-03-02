@@ -38,7 +38,7 @@ function init() {
         const homeWrapper = document.createElement("div");
 
         const portrait = document.createElement("img");
-        portrait.src = "/images/Slayer_Guilty_Gear_Strive.webp";
+        portrait.src = "images/Slayer_Guilty_Gear_Strive.webp";
         portrait.classList.add("character-portrait");
         homeWrapper.appendChild(portrait);
 
