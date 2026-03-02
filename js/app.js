@@ -7,6 +7,7 @@
         - Set up the router with its routes
         - Render the current page
 */
+const BASE_URL = "/PilebunkerLoops"; // Created base url to pull from when loading videos
 
 import { Router } from "./router.js";
 import { characterData } from "./data.js";
@@ -62,4 +63,5 @@ function init() {
     router.handleRoute(window.location.pathname);
 }
 
+const BASE = document.querySelector("base")?.href || "/PilebunkerLoops/";
 init();

@@ -18,7 +18,7 @@ export class VideoPlayer {
 
         const videoElement = document.createElement("video");
         videoElement.classList.add("combo-video");
-        videoElement.src = this.videoUrl;
+        videoElement.src = "/PilebunkerLoops/" + this.videoUrl; // Hardcodes video element to find videos
         videoElement.loop = true;
         videoElement.muted = true;
         videoElement.playsInline = true;
