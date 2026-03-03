@@ -7,6 +7,7 @@
 */
 
 import { ComboCard } from "../components/ComboCard.js";
+import { FilterPanel } from "../components/FilterPanel.js";
 
 export class ComboDetailPage {
 
@@ -36,7 +37,7 @@ export class ComboDetailPage {
         const button = document.createElement("button");
         button.classList.add("back-button");
         button.addEventListener("click", () => {
-            this.router.navigate("/PilebunkerLoops/")
+            this.router.navigate("/PilebunkerLoops/") // Hardcoded to push back to hosted page, replace later if not using github pages.
         });
         button.textContent = "Back";
         page.appendChild(button);
@@ -68,13 +69,27 @@ export class ComboDetailPage {
 
         const sortedCombos = [...optimal, ...other]; // Combined list with optimal combos first
 
+        const filterPanel = new FilterPanel(this.starter.combos, () => {
+            // re-render combo list when filters change
+            comboList.innerHTML = "";
+            filterPanel.getFilteredCombos().forEach((combo) => {
+                const card = new ComboCard(combo);
+                comboList.appendChild(card.render());
+            });
+        });
+
         // Loop over each combo and create a card for ComboCard
         sortedCombos.forEach((combo) => {
             const card = new ComboCard(combo);
-            comboList.appendChild(card.render())
+            comboList.appendChild(card.render());
         });
-        
-        page.appendChild(comboList);
+
+        const contentWrapper = document.createElement("div");
+        contentWrapper.classList.add("content-wrapper");
+        contentWrapper.appendChild(comboList);
+        contentWrapper.appendChild(filterPanel.render());
+        page.appendChild(contentWrapper); 
+
         return page;
     }
 }
