@@ -70,7 +70,7 @@ function init() {
     });
 
     router.registerRoute("/combos/:id", (starterId) => {
-        resourcesButton.style.display = "";
+        resourcesButton.style.display = "none";
         const page = new ComboDetailPage(characterData, starterId, router);
         setPage(page.render());
     });
