@@ -138,14 +138,26 @@ export const characterData = {
                 },
                 {
                     id: "2P-counterhit-metered",
-                    notationString: "CH 2P > 5K 236K > 66RRC > 66 214K~P > C.S 2S 2H 214P~P",
-                    damage: 148,
+                    notationString: "CH 2P > 5K 236K > 66RRC > 66 214K~P > C.S dl 2S 2H 214P~P > C.S 2S 2H 214P~P",
+                    damage: 0,
                     meterCost: 50,
                     difficulty: "Medium",
                     situation: "CH",
                     isOptimal: true,
                     notes: "Counterhit 2P cashout combo.",
                     videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625722/2P-counterhit-metered_ybbi1w.webm",
+                    videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
+                },
+                {
+                    id: "2P-counterhit-metered-2",
+                    notationString: "CH 2P > 5K 2D 236P > 5FRC 2S 2H 214P~P > C.S 2S 2H 214P~P",
+                    damage: 0, // Add Damage
+                    meterCost: 50,
+                    difficulty: "Medium",
+                    situation: "CH",
+                    isOptimal: false,
+                    notes: "Useful when you cannot convert from 236K from the optimal route.",
+                    videoUrl: null, // Add Video
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
             ]
@@ -213,7 +225,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "Optimal confirm with meter if you can't get the meterless route.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625736/6P-metered-confirm_tlpiof.webm",
+                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625734/6P-counterhit-metered_l2shpz.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png",
                 }
             ]
@@ -285,6 +297,18 @@ export const characterData = {
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
+                    id: "5K-counterhit-cashout",
+                    notationString: "CH 5K 6H 214P~P > 66FRC 214P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
+                    damage: 0, // Add Damage
+                    meterCost: 50,
+                    difficulty: "Easy",
+                    situation: "CH",
+                    isOptimal: true,
+                    notes: "Cashout confirm on counterhit 5K.",
+                    videoUrl: null, // Add Video
+                    videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
+                },
+                {
                     id: "5K-metered-optimal",
                     notationString: "5K 236K > 66RRC > 66 214K~P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
                     damage: 216,
@@ -317,7 +341,7 @@ export const characterData = {
                     situation: "Universe",
                     isOptimal: true,
                     notes: "Universe optimal confirm off of 5K.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625713/5K-universe_ejknvs.webm",
+                    videoUrl: "", // Replace with correct video. Past video was me dropping the combo.
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
             ]
@@ -422,7 +446,7 @@ export const characterData = {
                 },
                 {
                     id: "C.S-corner-counterhit",
-                    notationString: "c.CH C.S 5[D] > C.S dl 2S 2H 214P~P > C.S F.S 5H 236K W!",
+                    notationString: "c.CH C.S 5[D] > C.S dl 2S 2H 214P~P > C.S 2S 2H 214P~P",
                     damage: 233,
                     meterCost: 0,
                     difficulty: "Hard",
@@ -681,18 +705,6 @@ export const characterData = {
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 }, 
                 {
-                    id: "6H-counterhit-2",
-                    notationString: "CH 6H > dl 632146-Dash-9P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
-                    damage: 245,
-                    meterCost: 0,
-                    difficulty: "Impossible",
-                    situation: "CH",
-                    isOptimal: true,
-                    notes: "I've been in this situation 3 times and hit the combo once, usually not worth going for. Micro delay on kara P Dandy.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625696/6H-counterhit-2_adhpgq.webm",
-                    videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
-                {
                     id: "6H-metered-confirm",
                     notationString: "6H 214P~P > 66FRC 214P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
                     damage: 242,
@@ -834,6 +846,18 @@ export const characterData = {
                     isOptimal: true,
                     notes: "Optimal round start confirm, to wallbreak, forego the last 2H and use 2S 214P W!.",
                     videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625619/2D-counterhit-2_zlzacu.webm",
+                    videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
+                },
+                {
+                    id: "2D-counterhit-3",
+                    notationString: "CH 2D > C.S 5[D] > C.S 2S 2H 214K~P",
+                    damage: 0, // Add damage
+                    meterCost: 0,
+                    difficulty: "Easy",
+                    situation: "CH",
+                    isOptimal: false,
+                    notes: "For when you're too close for C.S 5[D] 2S to pickup a loop.",
+                    videoUrl: null, // Add video
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1074,6 +1098,18 @@ export const characterData = {
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
+                    id: "It's-late-counterhit-3",
+                    notationString: "CH 214X~S > C.S 66 > C.S 2H 214P~P > C.S 2S 2H 214P~P",
+                    damage: 0, // Add Damage
+                    meterCost: 0,
+                    difficulty: "Easy",
+                    situation: "CH",
+                    isOptimal: false,
+                    notes: "Auto timed counterhit route.",
+                    videoUrl: null, // Add Video
+                    videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
+                },
+                {
                     id: "It's-late-metered",
                     notationString: "214X~S > 66PRC > C.S dl 2S 214K~P > C.S dl 2S 2H 214P~P > C.S 2S 2H 214P~P",
                     damage: 197,
@@ -1095,6 +1131,18 @@ export const characterData = {
                     isOptimal: true,
                     notes: "Universal confirm using red roman cancel, can substitute for the other manual timed extension.",
                     videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625762/It_s-late-metered-2_ria0ty.webm",
+                    videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
+                },
+                {
+                    id: "It's-late-metered-3",
+                    notationString: "214X~S > 66PRC > 44 6S > 2S 214K~P > C.S dl 2S 2H 214P~P > C.S 2S 2H 214P~P W!",
+                    damage: 0, // Add Damage
+                    meterCost: 50,
+                    difficulty: "Medium",
+                    situation: "Corner",
+                    isOptimal: true,
+                    notes: "Corner confirm using Hand of Doom.",
+                    videoUrl: null, // Add Video
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
             ]
@@ -1153,6 +1201,18 @@ export const characterData = {
                     videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625757/Bump-ahead-metered-2_wpnjjs.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
+                {
+                    id: "Bump-ahead-metered-3",
+                    notationString: "214X~K > 66PRC > 44 6S > 2S 214K~P > C.S dl 2S 2H 214P~P > C.S 2S 2H 214P~P W!",
+                    damage: 0, // Add Damage
+                    meterCost: 50,
+                    difficulty: "Medium",
+                    situation: "Corner",
+                    isOptimal: false,
+                    notes: "Corner confirm using Hand of Doom.",
+                    videoUrl: null, // Add Video
+                    videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
+                },
             ]
         }, 
         {
@@ -1198,6 +1258,50 @@ export const characterData = {
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 }
             ]
-        }
+        },
+        {
+            id: "Hand of Doom",
+            input: "44 6S",
+            label: "Hand of Doom Starter",
+            situation: null,
+            combos: [ 
+                {
+                    id: "HoD-metered",
+                    notationString: "44 6S > 66RRC > 6[K] > 2S 214K~P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
+                    damage: 0, // Add Damage
+                    meterCost: 50,
+                    difficulty: "Easy",
+                    situation: null,
+                    isOptimal: false,
+                    notes: "Works anywhere on screen, including in the corner, and on counterhit. Switch 2H for 2S against big bodies. In the corner you will have to do the big body route.",
+                    videoUrl: null, // Add Video
+                    videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
+                },
+                {
+                    id: "HoD-metered-2",
+                    notationString: "44 6S > 66RRC > [4] 214P~P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
+                    damage: 0, // Add Damage
+                    meterCost: 50,
+                    difficulty: "Hard",
+                    situation: "Midscreen",
+                    isOptimal: true,
+                    notes: "Universal manual timed extension. Can be substituted with other manual timed extension using 214K dl P. Works on counterhit.",
+                    videoUrl: null, // Add Video
+                    videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
+                },
+                {
+                    id: "HoD-counterhit",
+                    notationString: "CH 44 6S > 5K 2D",
+                    damage: 0, // Add Damage
+                    meterCost: 0,
+                    difficulty: "Easy",
+                    situation: "CH",
+                    isOptimal: false,
+                    notes: "Counterhit confirm off of reversal Hand of Doom",
+                    videoUrl: null, // Add Video
+                    videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
+                }
+            ]
+        }  
     ] 
 };
