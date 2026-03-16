@@ -23,7 +23,7 @@ export class AboutPage {
         page.appendChild(heading);
 
         const image = document.createElement("img");
-        image.src = "images/Elucid.jpg";
+        image.src = "/PilebunkerLoops/images/Elucid.jpg";
         image.classList.add("character-portrait");
         page.appendChild(image);
 
