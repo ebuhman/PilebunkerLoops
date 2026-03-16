@@ -23,9 +23,19 @@ function init() {
 
     const header = document.createElement("header");
     header.classList.add("site-header");
+
     const title = document.createElement("h1");
     title.textContent = "Jack-A-Dandy";
     header.appendChild(title);
+
+    const resourcesButton = document.createElement("button");
+    resourcesButton.classList.add("resource-button");
+    resourcesButton.textContent = "Resources";
+    resourcesButton.addEventListener("click", () => {
+        router.navigate("/resources");
+    });
+    header.appendChild(resourcesButton);
+
     appContainer.appendChild(header);
 
     const pageContainer = document.createElement("div");
@@ -38,6 +48,7 @@ function init() {
     }
 
     router.registerRoute("/", () => {
+        resourcesButton.style.display = "";
         // Create a wrapper so we can show both the description AND the selection list
         const homeWrapper = document.createElement("div");
 
@@ -59,13 +70,15 @@ function init() {
     });
 
     router.registerRoute("/combos/:id", (starterId) => {
+        resourcesButton.style.display = "";
         const page = new ComboDetailPage(characterData, starterId, router);
         setPage(page.render());
     });
 
     router.registerRoute("/resources", () => {
-        const page = new ResourcePage(router);
-        setPage(page.render());
+    resourcesButton.style.display = "none";
+    const page = new ResourcePage(router);
+    setPage(page.render());
     });
 
     router.handleRoute(window.location.pathname);

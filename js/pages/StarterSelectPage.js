@@ -31,9 +31,6 @@ export class StarterSelectPage {
         })
 
         page.appendChild(grid);
-
-        const resourceButton = this.buildResourcesButton();
-        page.appendChild(resourceButton);
         
         return page;
     }
