@@ -18,7 +18,7 @@ export class VideoPlayer {
 
         const videoElement = document.createElement("video");
         videoElement.classList.add("combo-video");
-        videoElement.src = "/PilebunkerLoops/" + this.videoUrl.startsWith("http") // Hardcodes video element to find videos
+        videoElement.src = this.videoUrl.startsWith("http") // Hardcodes video element to find videos
         ? this.videoUrl 
         : "/PilebunkerLoops/" + this.videoUrl;
         videoElement.loop = true;
@@ -26,12 +26,25 @@ export class VideoPlayer {
         videoElement.playsInline = true;
         videoWrapper.appendChild(videoElement);
 
+        const hint = document.createElement("span");
+        hint.classList.add("video-hint");
+        hint.textContent = "Hover / Tap to play";
+
         videoWrapper.addEventListener("mouseenter", () => { // When mouse hovers, play video
             videoElement.play().catch(() => {});
         });
         videoWrapper.addEventListener("mouseleave", () => { // When mouse leaves hover, pause
             videoElement.pause();
             videoElement.currentTime = 0;
+        });
+
+        videoWrapper.addEventListener("click", () => {
+            if (videoElement.paused) {
+                videoElement.play().catch(() => {});
+            } else {
+                videoElement.pause();
+                videoElement.currentTime = 0;
+            }
         });
 
         videoElement.addEventListener("error", () => {
@@ -43,6 +56,11 @@ export class VideoPlayer {
                 videoWrapper.appendChild(img);
             }
         })
-        return videoWrapper;
+        
+        const container = document.createElement("div");
+        container.classList.add("video-container");
+        container.appendChild(videoWrapper);
+        container.appendChild(hint);
+        return container;
     }
 }
