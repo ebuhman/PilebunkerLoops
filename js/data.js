@@ -41,7 +41,7 @@ export const characterData = {
                     situation: "Airborne",
                     isOptimal: true,
                     notes: "Far range anti air 5P route.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625732/5P_Optimal_p4yubw.webm",
+                    videoUrl: "videos/P_Normals/5P/5P_Optimal.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -53,7 +53,7 @@ export const characterData = {
                     situation: "Airborne",
                     isOptimal: false,
                     notes: "Close range anti air 5P route. Will whiff if too far.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625728/5P_C.SOptimal_gmke77.webm",
+                    videoUrl: "videos/P_Normals/5P/5P_C.SOptimal.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -65,7 +65,7 @@ export const characterData = {
                     situation: "Airborne",
                     isOptimal: false,
                     notes: "Close range beginner anti air confirm.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625727/5P_C.S_dpdxba.webm",
+                    videoUrl: "videos/P_Normals/5P/5P_C.S.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -77,7 +77,7 @@ export const characterData = {
                     situation: "Airborne",
                     isOptimal: false,
                     notes: "Universal anti air combo",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625726/5P_5K_gemgky.webm",
+                    videoUrl: "videos/P_Normals/5P/5P_5K.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 }
             ]
@@ -97,7 +97,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Basic hitconfirm on mashes. Can get up to 3 2P depending on initial spacing.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625722/2P-hit-confirm_fj6tkr.webm",
+                    videoUrl: "videos/P_Normals/2P/2P-hit-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -109,7 +109,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "Confirm from a counterhit 2P. Can use 2D in replacement for 236K, but when 2P is max range.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625721/2P-counterhit_f5k5bh.webm",
+                    videoUrl: "videos/P_Normals/2P/2P-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -121,7 +121,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "Close range counterhit confirm off of 2P.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625722/2P-counterhit-optimal_xtsuy9.webm",
+                    videoUrl: "videos/P_Normals/2P/2P-counterhit-optimal.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -133,7 +133,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Cashout confirm on 2P mash.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625724/2P-metered-hit-confirm_n8giqs.webm",
+                    videoUrl: "videos/P_Normals/2P/2P-metered-hit-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -145,7 +145,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "Counterhit 2P cashout combo.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773699968/2P-counterhit-metered_ilnen7.webm", // Update this
+                    videoUrl: "videos/P_Normals/2P/2P-counterhit-metered.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -157,7 +157,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "Useful when you cannot convert from 236K from the optimal route.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773699969/2P-counterhit-metered-2_cd2pe6.webm",
+                    videoUrl: "videos/P_Normals/2P/2P-counterhit-metered-2.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
             ]
@@ -177,7 +177,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Basic anti air confirm",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625735/6P-hit-confirm_zlpnog.webm",
+                    videoUrl: "videos/P_Normals/6P/6P-hit-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -189,7 +189,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Meter cashout 6P confirm",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625736/6P-metered-confirm_tlpiof.webm",
+                    videoUrl: "videos/P_Normals/6P/6P-metered-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -201,7 +201,7 @@ export const characterData = {
                     situation: "Airborne CH",
                     isOptimal: false,
                     notes: "Basic anti air counterhit",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625734/6P-counterhit_wi1qck.webm",
+                    videoUrl: "videos/P_Normals/6P/6P-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -213,7 +213,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "At certain heights after a counterhit 6P, pilebunker will loop. Not consistent.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625735/6P-counterhit-optimal_dyxuqc.webm",
+                    videoUrl: "videos/P_Normals/6P/6P-counterhit-optimal.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -225,8 +225,8 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "Optimal confirm with meter if you can't get the meterless route.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625734/6P-counterhit-metered_l2shpz.webm",
-                    videoFallbackImage: "images/5P/GGST_Slayer_5P.png",
+                    videoUrl: "videos/P_Normals/6P/6P-metered-counterhit.webm",
+                    videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 }
             ]
         },
@@ -245,7 +245,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Basic hitconfirm into oki.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625711/5K-knockdown_p7aqsm.webm",
+                    videoUrl: "videos/K_Normals/5K/5K-knockdown.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -257,9 +257,9 @@ export const characterData = {
                     situation: "Airborne",
                     isOptimal: false,
                     notes: "Confirm on pre-jump or roundstart.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625710/5K-antiair_bhjwur.webm",
+                    videoUrl: "videos/K_Normals/5K/5K-antiair.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "5K-antiair-metered",
                     notationString: "5K 6H 214P~P > 66FRC 214P > 4 C.S 2H 214P~P > C.S 2S 2H 214P~P",
@@ -269,9 +269,9 @@ export const characterData = {
                     situation: "Airborne",
                     isOptimal: true,
                     notes: "On the rare ocassion you have meter and hit 5K as an anti air. Without the microwalk the 2H will whiff.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625711/5K-antiair-metered_f3c6mx.webm",
+                    videoUrl: "videos/K_Normals/5K/5K-antiair-metered.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "5K-whiff-punish",
                     notationString: "5K 236K",
@@ -281,7 +281,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "5K whiff punish on ranges where 2D cannot reach",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625713/5K-whiff-punish_nsorbw.webm",
+                    videoUrl: "videos/K_Normals/5K/5K-whiff-punish.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -293,7 +293,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "Counterhit confirm on standing opponents.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625711/5K-counterhit_bneaui.webm",
+                    videoUrl: "videos/K_Normals/5K/5K-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -305,7 +305,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "Cashout confirm on counterhit 5K.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773699969/5K-counterhit-cashout_kmokad.webm",
+                    videoUrl: "videos/K_Normals/5K/5K-counterhit-cashout.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -317,7 +317,7 @@ export const characterData = {
                     situation: "Midscreen",
                     isOptimal: true,
                     notes: "Universal confirm midscreen with meter.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625714/5K-metered-optimal_hqp20a.webm",
+                    videoUrl: "videos/K_Normals/5K/5K-metered-optimal.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -329,7 +329,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: true,
                     notes: "5K 2D metered hit-confirm",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625712/5K-metered-hit-confirm_yaaj3e.webm",
+                    videoUrl: "videos/K_Normals/5K/5K-metered-hit-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -341,7 +341,7 @@ export const characterData = {
                     situation: "Universe",
                     isOptimal: true,
                     notes: "Universe optimal confirm off of 5K.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773699970/5K-universe_dnmgbq.webm",
+                    videoUrl: "videos/K_Normals/5K/5K-universe.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
             ]
@@ -361,7 +361,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Basic hard knockdown into okizeme",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625704/2K-knockdown_wo7tgr.webm",
+                    videoUrl: "videos/K_Normals/2K/2K-knockdown.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -373,7 +373,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "Far counterhit confirm from 2K",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625704/2K-counterhit-hit-confirm_lxhtk6.webm",
+                    videoUrl: "videos/K_Normals/2K/2K-counterhit-hit-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -385,7 +385,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "Close range counterhit 2K route.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625704/2K-close-counterhit_q5syq6.webm",
+                    videoUrl: "videos/K_Normals/2K/2K-close-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -397,7 +397,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: true,
                     notes: "Optimal metered 2K confirm with corner carry",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625705/2K-metered-confirm_huzl0k.webm",
+                    videoUrl: "videos/K_Normals/2K/2K-metered-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -409,7 +409,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "For when you don't want to corner yourself against a target with burst",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625706/2K-metered-confirm-2_xntgwi.webm",
+                    videoUrl: "videos/K_Normals/2K/2K-metered-confirm-2.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 }
             ]
@@ -429,7 +429,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Slayer's bread and butter confirm. Can switch 6H for F.S(1) or 2S for resets.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625743/C.S-confirm_kkjwof.webm",
+                    videoUrl: "videos/S_Normals/C.S/C.S-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -441,7 +441,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "Optimal C.S confirm midscreen. If near wall, detatch after the last 2S to wallstick.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625745/C.S-counterhit_urbcg2.webm",
+                    videoUrl: "videos/S_Normals/C.S/C.S-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -453,7 +453,7 @@ export const characterData = {
                     situation: "Corner CH",
                     isOptimal: true,
                     notes: "Counterhit C.S confirm with corner advantage.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625745/C.S-corner-counterhit_vvqsjd.webm",
+                    videoUrl: "videos/S_Normals/C.S/C.S-corner-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -465,7 +465,7 @@ export const characterData = {
                     situation: "Universe",
                     isOptimal: true,
                     notes: "Universe C.S confirm.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625747/C.S-universe_kj5mzq.webm",
+                    videoUrl: "videos/S_Normals/C.S/C.S-universe.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -477,10 +477,10 @@ export const characterData = {
                     situation: "Midscreen",
                     isOptimal: true,
                     notes: "Burst punish off of non 2H starters",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625743/C.S-burst-punish_o8ntkr.webm",
+                    videoUrl: "videos/S_Normals/C.S/C.S-burst-punish.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
-                 {
+                {
                     id: "C.S-corner-burst-punish",
                     notationString: "C.S dl 2S dl 214K~P > C.S 2H 214P~P > C.S F.S 5H 236K W!",
                     damage: 231,
@@ -489,7 +489,7 @@ export const characterData = {
                     situation: "Corner",
                     isOptimal: true,
                     notes: "Burst punish with corner advantage",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625745/C.S-corner-burst-punish_grkzjo.webm",
+                    videoUrl: "videos/S_Normals/C.S/C.S-corner-burst-punish.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -501,7 +501,7 @@ export const characterData = {
                     situation: "Airborne",
                     isOptimal: true,
                     notes: "Counterhit confirm, 2H will drop on big bodies",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625742/C.S-antiair_lmkzzp.webm",
+                    videoUrl: "videos/S_Normals/C.S/C.S-antiair.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -513,7 +513,7 @@ export const characterData = {
                     situation: "Midscreen",
                     isOptimal: true,
                     notes: "Basic metered confirm midscreen",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625746/C.S-metered-confirm_rh9s3n.webm",
+                    videoUrl: "videos/S_Normals/C.S/C.S-metered-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
             ]
@@ -533,9 +533,9 @@ export const characterData = {
                     situation: "Anywhere",
                     isOptimal: false,
                     notes: "Basic hit-confirm",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625750/F.S-hit-confirm_tzml0q.webm",
+                    videoUrl: "videos/S_Normals/F.S/F.S-hit-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "F.S-antiair",
                     notationString: "F.S 5H 214P~P",
@@ -545,9 +545,9 @@ export const characterData = {
                     situation: "Antiair",
                     isOptimal: true,
                     notes: "When you can't convert using 236D.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773699969/F.S-antiair_xg5ils.webm",
+                    videoUrl: "videos/S_Normals/F.S/F.S-antiair.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "F.S-roundstart",
                     notationString: "F.S 5H 236D > 2S 214K~P > C.S 2S 2H 214P~P W!",
@@ -557,9 +557,9 @@ export const characterData = {
                     situation: "Antiair",
                     isOptimal: true,
                     notes: "Beats certain airborne roundtstarts, also works when landing as an antiair.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625752/F.S-roundstart_wwkiqh.webm",
+                    videoUrl: "videos/S_Normals/F.S/F.S-roundstart.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "F.S-counterhit",
                     notationString: "CH F.S 236[D] > 4 2S 214K~P > C.S dl 2S 2H 214P~P > C.S 2S 2H 214~P",
@@ -569,9 +569,9 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "Round start wallbreak using wild assault.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625750/F.S-counterhit_mcb7ej.webm",
+                    videoUrl: "videos/S_Normals/F.S/F.S-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "F.S-air-counterhit",
                     notationString: "CH F.S > C.S 214P~P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
@@ -581,9 +581,9 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "On rare ocassions, F.S will counterhit airborne opponents.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625750/F.S-air-counterhit_qr3nhh.webm",
+                    videoUrl: "videos/S_Normals/F.S/F.S-air-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
             ]
         },
         {
@@ -601,9 +601,9 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Basic confirm off of 2S",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625738/2S-hit-confirm_tolqwy.webm",
+                    videoUrl: "videos/S_Normals/2S/2S-hit-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "2S-counterhit",
                     notationString: "CH 2S 5H 214P~P",
@@ -613,9 +613,9 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "On counterhit, 5H will convert into pilebunker. Does 2 more damage than 2H.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625738/2S-counterhit_kp6iqr.webm",
+                    videoUrl: "videos/S_Normals/2S/2S-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "2S-metered-confirm",
                     notationString: "2S 2H 214P~P > 66FRC 214P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
@@ -625,7 +625,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: true,
                     notes: "2H will whiff on big bodies.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625739/2S-metered-confirm_qkq8wy.webm",
+                    videoUrl: "videos/S_Normals/2S/2S-metered-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 }
             ]
@@ -645,9 +645,9 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Basic hit confirm",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625687/5H-confirm_iasqlv.webm",
+                    videoUrl: "videos/H_Normals/5H/5H-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "5H-crouch-confirm",
                     notationString: "5K 214P~P",
@@ -657,9 +657,9 @@ export const characterData = {
                     situation: "Crouching",
                     isOptimal: false,
                     notes: "Crouch confirm, also works from 2S if crouching.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625687/5H-crouch-confirm_ar7vql.webm",
+                    videoUrl: "videos/H_Normals/5H/5H-crouch-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "5H-counterhit",
                     notationString: "CH 5H 214P > 2H 214P~P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
@@ -669,9 +669,9 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "Do you want to explode?",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625687/5H-confirm_iasqlv.webm",
+                    videoUrl: "videos/H_Normals/5H/5H-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "5H-metered",
                     notationString: "5H 236K > 66FRC > 2S dl 2H 214P~P > C.S dl 2S 2H 214P~P > C.S 2S 2H 214P~P",
@@ -681,9 +681,9 @@ export const characterData = {
                     situation: null,
                     isOptimal: true,
                     notes: "First 2H must be manually delayed slightly, and the second 2S must have a micro delay.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625688/5H-metered-confirm_txvkt0.webm",
+                    videoUrl: "videos/H_Normals/5H/5H-metered-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
             ]
         },
         {
@@ -701,9 +701,9 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Basic confirm",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625694/6H-confirm_uhpxvi.webm",
+                    videoUrl: "videos/H_Normals/6H/6H-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "6H-counterhit",
                     notationString: "CH 6H 214P > C.S 5[D] > C.S dl 2S dl 2H 214P~P > C.S 2S 2H 214P~P",
@@ -713,9 +713,9 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "Both 2S and 2H will need manual delays of around the same frame. Too early and 2S or 2H will whiff or will not convert further.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625696/6H-counterhit_fokcjk.webm",
+                    videoUrl: "videos/H_Normals/6H/6H-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "6H-metered-confirm",
                     notationString: "6H 214P~P > 66FRC 214P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
@@ -725,7 +725,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: true,
                     notes: "Metered 6H confirm.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625696/6H-metered-confirm_yvy7vk.webm",
+                    videoUrl: "videos/H_Normals/6H/6H-metered-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 }
             ]
@@ -745,9 +745,9 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Basic confirm",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625681/2H-confirm_uuma4m.webm",
+                    videoUrl: "videos/H_Normals/2H/2H-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "2H-counterhit",
                     notationString: "CH 2H 214P > C.S dl 2S dl 2H 214P~P > C.S 2S 2H 214P~P",
@@ -757,9 +757,9 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "When 2H counterhits in the center of the hitbox.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625682/2H-counterhit_gcion6.webm",
+                    videoUrl: "videos/H_Normals/2H/2H-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "2H-counterhit-2",
                     notationString: "CH 2H 214P > C.S 2S 214K~P > C.S dl 2S 2H 214P~P > C.S 2S 2H 214P~P",
@@ -769,9 +769,9 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "The old counterhit route we know and love. Now only works when in close ranges.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625682/2H-counterhit-2_jdwkad.webm",
+                    videoUrl: "videos/H_Normals/2H/2H-counterhit-2.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "2H-metered-confirm",
                     notationString: "2H 214P~P > 66FRC 214P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
@@ -781,9 +781,9 @@ export const characterData = {
                     situation: null,
                     isOptimal: true,
                     notes: "Metered confirm off of 2H.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625682/2H-metered-confirm_vrtnmh.webm",
+                    videoUrl: "videos/H_Normals/2H/2H-metered-confirm.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
             ]
         },
         {
@@ -791,7 +791,7 @@ export const characterData = {
             input: "5D",
             label: "5D Starter",
             situation: null,
-            combos: [ 
+            combos: [
                 {
                     id: "5D-metered",
                     notationString: "5D > 5[D] > C.S 6H 214P~P",
@@ -801,7 +801,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Basic confirm",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625630/5D-metered_a4ld9x.webm",
+                    videoUrl: "videos/DustAttacks/5D/5D-metered.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -810,10 +810,10 @@ export const characterData = {
                     damage: 161,
                     meterCost: 50,
                     difficulty: "Hard",
-                    situation: "Midscren",
+                    situation: "Midscreen",
                     isOptimal: true,
                     notes: "Whiffing the 2K sets up the manual extension similar to other RRC combos.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625631/5D-metered-2_n62rb9.webm",
+                    videoUrl: "videos/DustAttacks/5D/5D-metered-2.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -825,7 +825,7 @@ export const characterData = {
                     situation: "Midscreen",
                     isOptimal: true,
                     notes: "Microwalk until you see Slayer move a frame.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625632/5D-universe_ihyxza.webm",
+                    videoUrl: "videos/DustAttacks/5D/5D-universe.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 }
             ]
@@ -835,7 +835,7 @@ export const characterData = {
             input: "2D",
             label: "2D Starter",
             situation: null,
-            combos: [ 
+            combos: [
                 {
                     id: "2D-counterhit",
                     notationString: "CH 2D > C.S 5[D] > C.S 214P~P > C.S 2S 2H 214P~P",
@@ -845,7 +845,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "Basic roundstart confirm.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625618/2D-counterhit_whpggd.webm",
+                    videoUrl: "videos/DustAttacks/2D/2D-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -857,7 +857,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "Optimal round start confirm, to wallbreak, forego the last 2H and use 2S 214P W!.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625619/2D-counterhit-2_zlzacu.webm",
+                    videoUrl: "videos/DustAttacks/2D/2D-counterhit-2.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -869,7 +869,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "For when you're too close for C.S 5[D] 2S to pickup a loop.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773699968/2D-counterhit-3_lqygw7.webm",
+                    videoUrl: "videos/DustAttacks/2D/2D-counterhit-3.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -881,7 +881,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Basic hit confirm off of 2D.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625620/2D-metered_ydwj0c.webm",
+                    videoUrl: "videos/DustAttacks/2D/2D-metered.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -893,10 +893,9 @@ export const characterData = {
                     situation: "Midscreen",
                     isOptimal: true,
                     notes: "While possible to do a manual extension off of 2D, it is a different timing than the others, and is therefore not recommended.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625619/2D-metered-2_gtwmms.webm",
+                    videoUrl: "videos/DustAttacks/2D/2D-metered-2.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
-                
             ]
         },
         {
@@ -914,9 +913,9 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "Universal confirm midscreen or in the corner.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625779/236P-counterhit_jjhunl.webm",
+                    videoUrl: "videos/Specials/PMappa/236P-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "236P-corner-counterhit",
                     notationString: "CH 236P > 2P 5P 6H 214P~P W!",
@@ -926,9 +925,9 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "Drops on Bridget, Jack-o, Johnny, May, Slayer, and Testament. Revert to 2K confirm or use meter against the mentioned characters.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625779/236P-corner-counterhit_mdzces.webm",
+                    videoUrl: "videos/Specials/PMappa/236P-corner-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "236P-metered",
                     notationString: "236P > 66RRC 2S 214K~P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
@@ -938,9 +937,9 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Universal metered confirm. Switch C.S 2H for C.S 2S against big bodies, which requires a different route in the corner.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625781/236P-metered_thgzuw.webm",
+                    videoUrl: "videos/Specials/PMappa/236P-metered.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
-                }, 
+                },
                 {
                     id: "236P-optimal",
                     notationString: "236P > 66RRC [4] 214P~P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
@@ -950,11 +949,11 @@ export const characterData = {
                     situation: "Midscreen",
                     isOptimal: true,
                     notes: "Can substitute the walk back pilebunker extension with the other manual timed pilebunker extension using 214K~dlP.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625781/236P-optimal_v8bore.webm",
+                    videoUrl: "videos/Specials/PMappa/236P-optimal.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
             ]
-        }, 
+        },
         {
             id: "K-Mappa",
             input: "236K",
@@ -970,7 +969,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "Basic counterhit confirm",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625766/236K-counterhit_oitymh.webm",
+                    videoUrl: "videos/Specials/KMappa/236K-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -982,7 +981,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "When closer to the corner, you can confirm 5K into 6H pilebunker for a wallbreak.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625767/236K-counterhit-2_tpio7q.webm",
+                    videoUrl: "videos/Specials/KMappa/236K-counterhit-2.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -994,7 +993,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "Replace the last 236K with delayed Super Mappa Hunch for optimal ender.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625765/236K-corner-counterhit_kuilwu.webm",
+                    videoUrl: "videos/Specials/KMappa/236K-corner-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1006,7 +1005,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Universal confirm from anywhere, including counterhit. Replace first 2H with 2S against big bodies.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625768/236K-metered_tqqatf.webm",
+                    videoUrl: "videos/Specials/KMappa/236K-metered.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1018,7 +1017,7 @@ export const characterData = {
                     situation: "Midscreen",
                     isOptimal: true,
                     notes: "Universal midscreen confirm, works on big bodies.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625768/236K-metered-optimal_zqxv5p.webm",
+                    videoUrl: "videos/Specials/KMappa/236K-metered-optimal.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 }
             ]
@@ -1026,9 +1025,9 @@ export const characterData = {
         {
             id: "Pilebunker",
             input: "214X~P",
-            label: "Pilebunker starter",
+            label: "Pilebunker Starter",
             situation: null,
-            combos: [ 
+            combos: [
                 {
                     id: "Pilebunker-counterhit",
                     notationString: "CH 214X~P > 632146 Dash 9P W!",
@@ -1038,7 +1037,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "In some midrange spacings, you can convert a counterhit pilebunker into another for a wallbreak. The closer you are to the corner, the less you need a kara dandy.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625775/Pilebunker-counterhit_wrk2hz.webm",
+                    videoUrl: "videos/Specials/Pilebunker/Pilebunker-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1050,7 +1049,7 @@ export const characterData = {
                     situation: "Midscreen",
                     isOptimal: true,
                     notes: "The quintessential pilebunker confirm. Has two separate manual timed variants as well. This combo will drop on Sin and Happy Chaos.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625775/Pilebunker-metered_uuv1ot.webm",
+                    videoUrl: "videos/Specials/Pilebunker/Pilebunker-metered.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1062,7 +1061,7 @@ export const characterData = {
                     situation: "Midscreen",
                     isOptimal: true,
                     notes: "Useful when you have corner advantage so that you avoid being bursted into the corner after the second pilebunker.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625776/Pilebunker-metered-2_k04yu0.webm",
+                    videoUrl: "videos/Specials/Pilebunker/Pilebunker-metered-2.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1071,10 +1070,10 @@ export const characterData = {
                     damage: 238,
                     meterCost: 50,
                     difficulty: "Hard",
-                    situation: "Midscren",
+                    situation: "Midscreen",
                     isOptimal: true,
                     notes: "Useful when seeking corner carry or to get out of the corner.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625777/Pilebunker-metered-3_ka6rmp.webm",
+                    videoUrl: "videos/Specials/Pilebunker/Pilebunker-metered-3.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
             ]
@@ -1084,7 +1083,7 @@ export const characterData = {
             input: "214X~S",
             label: "It's Late Starter",
             situation: null,
-            combos: [ 
+            combos: [
                 {
                     id: "It's-late-counterhit",
                     notationString: "214X~S > [4] 2S 2H 214P~P > C.S dl 2S 2H 214P~P > C.S 2S 2H 214P~P",
@@ -1094,7 +1093,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "I honestly don't have a good visual tell for if this combo will hit or not. I would recommend just grinding out the muscle memory at different spacings.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625759/It_s-late-counterhit_owyo6z.webm",
+                    videoUrl: "videos/Specials/It's Late/It's-late-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1106,7 +1105,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "Only works if the overhead is right up against the opponent.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625760/It_s-late-counterhit-2_nrirku.webm",
+                    videoUrl: "videos/Specials/It's Late/It's-late-counterhit-2.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1118,7 +1117,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "Auto timed counterhit route.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773699976/It_s-late-counterhit-3_dxeyse.webm",
+                    videoUrl: "videos/Specials/It's Late/It's-late-counterhit-3.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1130,7 +1129,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Similar timing to the low, works well with the delayed PRC strike throw you do with guard crush.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625761/It_s-late-metered_ndozui.webm",
+                    videoUrl: "videos/Specials/It's Late/It's-late-metered.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1142,7 +1141,7 @@ export const characterData = {
                     situation: "Midscreen",
                     isOptimal: true,
                     notes: "Universal confirm using red roman cancel, can substitute for the other manual timed extension.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625762/It_s-late-metered-2_ria0ty.webm",
+                    videoUrl: "videos/Specials/It's Late/It's-late-metered-2.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1154,7 +1153,7 @@ export const characterData = {
                     situation: "Corner",
                     isOptimal: true,
                     notes: "Corner confirm using Hand of Doom.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773699976/It_s-late-metered-3_bue8rb.webm",
+                    videoUrl: "videos/Specials/It's Late/It's-late-metered-3.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
             ]
@@ -1164,8 +1163,8 @@ export const characterData = {
             input: "214X~K",
             label: "Bump Ahead Starter",
             situation: null,
-            combos: [ 
-                 {
+            combos: [
+                {
                     id: "Bump-Ahead-counterhit",
                     notationString: "CH 214X~K > [4] 2S 2H 214P~P > C.S dl 2S 2H 214~P > C.S 2S 2H 214P~P",
                     damage: 194,
@@ -1174,7 +1173,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "I found this to be the most consistent way to time this, but it has many ways to make it work. It is inconsistent, however.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625755/Bump-ahead-counterhit_tvydsw.webm",
+                    videoUrl: "videos/Specials/Bump Ahead/Bump-ahead-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1186,7 +1185,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "Easier than the optimal, but still requires a manual timing. May need a microwalk before the C.S, which will change how long you delay the 2S.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625755/Bump-ahead-counterhit-2_mbjnbb.webm",
+                    videoUrl: "videos/Specials/Bump Ahead/Bump-ahead-counterhit-2.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1198,7 +1197,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: true,
                     notes: "This is the easiest way to hit confirm the low while still getting meaningful damage.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625756/Bump-ahead-metered_glgz1g.webm",
+                    videoUrl: "videos/Specials/Bump Ahead/Bump-ahead-metered.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1210,29 +1209,29 @@ export const characterData = {
                     situation: "Midscreen",
                     isOptimal: false,
                     notes: "Can be substituted with the other manual timed extension.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625757/Bump-ahead-metered-2_wpnjjs.webm",
+                    videoUrl: "videos/Specials/Bump Ahead/Bump-ahead-metered-2.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
                     id: "Bump-ahead-metered-3",
                     notationString: "214X~K > 66PRC > 44 6S > 2S 214K~P > C.S dl 2S 2H 214P~P > C.S 2S 2H 214P~P W!",
-                    damage: 196, 
+                    damage: 196,
                     meterCost: 50,
                     difficulty: "Medium",
                     situation: "Corner",
                     isOptimal: false,
                     notes: "Corner confirm using Hand of Doom.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773699970/Bump-ahead-metered-3_jniajm.webm",
+                    videoUrl: "videos/Specials/Bump Ahead/Bump-ahead-metered-3.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
             ]
-        }, 
+        },
         {
             id: "Master's Hammer",
             input: "214K~H",
             label: "Master's Hammer Starter",
             situation: null,
-            combos: [ 
+            combos: [
                 {
                     id: "Master's-hammer-counterhit",
                     notationString: "CH 214X~H > [6] 2S 214K~P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
@@ -1242,7 +1241,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "Universal confirm off of mistimed throws on Master's Hammer. Switch the first 2H with 2S against big bodies.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625771/Master_s-hammer-counterhit_vf1pen.webm",
+                    videoUrl: "videos/Specials/Master's Hammer/Master's-hammer-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1254,7 +1253,7 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: true,
                     notes: "If you hit Master's Hammer further back, you can extend with pilebunker instead. It doesn't add meaningful damage, but can be better for routing away from burst.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625772/Master_s-hammer-counterhit-2_kc0brm.webm",
+                    videoUrl: "videos/Specials/Master's Hammer/Master's-hammer-counterhit-2.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1266,7 +1265,7 @@ export const characterData = {
                     situation: "Midscreen",
                     isOptimal: true,
                     notes: "Does the same damage as RRC routes and lets you hit confirm with an easier window.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773625772/Master_s-hammer-metered_z99zkx.webm",
+                    videoUrl: "videos/Specials/Master's Hammer/Master's-hammer-metered.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 }
             ]
@@ -1276,7 +1275,7 @@ export const characterData = {
             input: "44 6S",
             label: "Hand of Doom Starter",
             situation: null,
-            combos: [ 
+            combos: [
                 {
                     id: "HoD-metered",
                     notationString: "44 6S > 66RRC > 6[K] > 2S 214K~P > C.S 2H 214P~P > C.S 2S 2H 214P~P",
@@ -1286,7 +1285,7 @@ export const characterData = {
                     situation: null,
                     isOptimal: false,
                     notes: "Works anywhere on screen, including in the corner, and on counterhit. Switch 2H for 2S against big bodies. In the corner you will have to do the big body route.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773699971/HoD-metered_kx6yxo.webm",
+                    videoUrl: "videos/Specials/Hand of Doom/HoD-metered.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1298,7 +1297,7 @@ export const characterData = {
                     situation: "Midscreen",
                     isOptimal: true,
                     notes: "Universal manual timed extension. Can be substituted with other manual timed extension using 214K dl P. Works on counterhit.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773699975/HoD-metered-2_wrrfqv.webm",
+                    videoUrl: "videos/Specials/Hand of Doom/HoD-metered-2.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
@@ -1310,22 +1309,22 @@ export const characterData = {
                     situation: "CH",
                     isOptimal: false,
                     notes: "Counterhit confirm off of reversal Hand of Doom. At further ranges, use 5K 236K.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773699970/HoD-counterhit_kh6dwf.webm",
+                    videoUrl: "videos/Specials/Hand of Doom/HoD-counterhit.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
                 {
                     id: "HoD-counterhit-metered",
-                    notationString: "CH 44 6S > 5K 236K > 66RRC > 66 214K~P > C.S dl 2S 2H 214P~P > C.S 2S 2H 214P~P ",
+                    notationString: "CH 44 6S > 5K 236K > 66RRC > 66 214K~P > C.S dl 2S 2H 214P~P > C.S 2S 2H 214P~P",
                     damage: 203,
                     meterCost: 50,
-                    difficulty: "medium",
+                    difficulty: "Medium",
                     situation: "CH",
                     isOptimal: true,
                     notes: "Counterhit cashout confirm off of Hand of Doom.",
-                    videoUrl: "https://res.cloudinary.com/dlts0xtuw/video/upload/v1773699971/HoD-counterhit-metered_rhlq3h.webm",
+                    videoUrl: "videos/Specials/Hand of Doom/HoD-counterhit-metered.webm",
                     videoFallbackImage: "images/5P/GGST_Slayer_5P.png"
                 },
             ]
-        }  
-    ] 
+        }
+    ]
 };

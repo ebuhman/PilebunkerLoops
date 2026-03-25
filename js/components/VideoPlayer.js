@@ -18,11 +18,9 @@ export class VideoPlayer {
 
         const videoElement = document.createElement("video");
         videoElement.classList.add("combo-video");
-        videoElement.src = this.videoUrl.startsWith("http") // Hardcodes video element to find videos
-        ? this.videoUrl 
-        : "/PilebunkerLoops/" + this.videoUrl;
-        videoElement.loop = true;
+        videoElement.dataset.src = "/PilebunkerLoops/" + this.videoUrl;
         videoElement.muted = true;
+        videoElement.loop = true;
         videoElement.playsInline = true;
         videoWrapper.appendChild(videoElement);
 
@@ -30,9 +28,13 @@ export class VideoPlayer {
         hint.classList.add("video-hint");
         hint.textContent = "Hover / Tap to play";
 
-        videoWrapper.addEventListener("mouseenter", () => { // When mouse hovers, play video
+        videoWrapper.addEventListener("mouseenter", () => {
+            if (!videoElement.src || videoElement.src === window.location.href) {
+                videoElement.src = videoElement.dataset.src;
+            }
             videoElement.play().catch(() => {});
         });
+        
         videoWrapper.addEventListener("mouseleave", () => { // When mouse leaves hover, pause
             videoElement.pause();
             videoElement.currentTime = 0;
